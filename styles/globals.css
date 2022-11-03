@@ -24,3 +24,24 @@ a {
     background: black;
   }
 }
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background: blue;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper a {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  flex-grow: 1;
+}
+.main {
+  margin-top: 60px;
+}
