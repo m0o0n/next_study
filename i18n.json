@@ -1,0 +1,8 @@
+{
+  "locales": ["en", "de", "fr", "ru"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["common"],
+    "/": ["common"]
+  }
+}

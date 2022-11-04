@@ -77,5 +77,107 @@
         "Улица Антонича"
       ]
     }
-  ]
+  ],
+  "language": {
+    "ru": {
+      "catalog": [
+        { "id": 0, "name": "Тракторы", "categories": ["Все тракторы"] },
+        {
+          "id": 1,
+          "name": "Сбор урожая",
+          "categories": [
+            "Пресс-подборщики",
+            "Обмотчики тюков",
+            "Комбайны",
+            "Самоходные кормоуборочные комбайны",
+            "Свеклоуборочная техника",
+            "Косилки",
+            "Картофелеуборочные комбайны"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": 0,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004"
+        },
+        {
+          "id": 1,
+          "name": "John Deere 382",
+          "cost": "14.500$",
+          "year": "2014"
+        },
+        {
+          "id": 2,
+          "name": "John Deere 383",
+          "cost": "28.700$",
+          "year": "2020"
+        },
+        {
+          "id": 3,
+          "name": "John Deere 481",
+          "cost": "22.900$",
+          "year": "2012"
+        },
+        {
+          "id": 4,
+          "name": "John Deere 9181",
+          "cost": "38.400$",
+          "year": "2011"
+        }
+      ]
+    },
+    "en": {
+      "catalog": [
+        { "id": 0, "name": "Tractors", "categories": ["All tractors"] },
+        {
+          "id": 1,
+          "name": "Harvesting",
+          "categories": [
+            "Balers",
+            "Bale wrappers",
+            "Combine harvesters",
+            "Self propelled forage harvesters",
+            "Beet harvesting equipments",
+            "Mowers",
+            "Potato harvesters"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": 0,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004"
+        },
+        {
+          "id": 1,
+          "name": "John Deere 382",
+          "cost": "14.500$",
+          "year": "2014"
+        },
+        {
+          "id": 2,
+          "name": "John Deere 383",
+          "cost": "28.700$",
+          "year": "2020"
+        },
+        {
+          "id": 3,
+          "name": "John Deere 481",
+          "cost": "22.900$",
+          "year": "2012"
+        },
+        {
+          "id": 4,
+          "name": "John Deere 9181",
+          "cost": "38.400$",
+          "year": "2011"
+        }
+      ]
+    }
+  }
 }

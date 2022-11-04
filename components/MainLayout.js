@@ -1,7 +1,11 @@
 import Link from 'next/link';
 import Head from 'next/head';
-
-export function MainLayout({ children, title }) {
+import { useRouter } from 'next/router';
+import Router from 'next/router';
+import { Footer } from './Footer';
+export function MainLayout({ children, title, footer }) {
+	const router = useRouter();
+	const { locales, locale } = router;
 	return (
 		<>
 			<Head>
@@ -12,9 +16,28 @@ export function MainLayout({ children, title }) {
 			<nav className="wrapper">
 				<Link href={'/'}>Home</Link>
 				<Link href={'/cities'}>Cities</Link>
+				<Link href={'/catalog'}>Catalog</Link>
 				<Link href={'/about'}>About</Link>
+				<select
+					onChange={e => {
+						Router.push(router.asPath, router.asPath, {
+							locale: e.target.value,
+						});
+					}}
+					defaultValue={locale}
+				>
+					{locales.map(lang => {
+						return (
+							<option key={lang} value={lang}>
+								{lang}
+							</option>
+						);
+					})}
+				</select>
 			</nav>
 			<main className="main">{children}</main>
+			{footer ? <Footer /> : null}
+
 		</>
 	);
 }

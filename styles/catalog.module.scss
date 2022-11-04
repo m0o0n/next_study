@@ -1,0 +1,32 @@
+.catalog {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 500px;
+  max-width: 100vh;
+  margin-bottom: 150px;
+  .catalog_col {
+    position: relative;
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+  }
+  .catalog_col__in {
+    position: relative;
+    display: flex;
+    max-height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    span {
+      cursor: pointer;
+      transition: 0.4s;
+      &:hover {
+        color: chartreuse;
+      }
+    }
+  }
+}
