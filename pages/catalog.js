@@ -15,7 +15,7 @@ export default function Catalog({ catalog, locale }) {
 						<div key={el.id} className={styles.catalog_col}>
 							<h5>{el.name}</h5>
 							<div className={styles.catalog_col__in}>
-								{el.categories.map((categories) => {
+								{el.categories.map(categories => {
 									return (
 										<span key={categories.id}>
 											<Link
@@ -117,7 +117,6 @@ export default function Catalog({ catalog, locale }) {
 					</div>
 				</div>
 			</div>
-
 		</MainLayout>
 	);
 }

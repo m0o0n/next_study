@@ -16,7 +16,6 @@ export default function Cities({ cities }) {
 					);
 				})}
 			</ul>
-
 		</MainLayout>
 	);
 }

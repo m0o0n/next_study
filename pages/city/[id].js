@@ -1,6 +1,5 @@
 import { MainLayout } from '../../components/MainLayout';
 
-
 export default function City({ city }) {
 	return (
 		<MainLayout footer>
@@ -10,7 +9,6 @@ export default function City({ city }) {
 					return <li key={s}>{s}</li>;
 				})}
 			</ul>
-
 		</MainLayout>
 	);
 }

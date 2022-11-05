@@ -37,7 +37,6 @@ export function MainLayout({ children, title, footer }) {
 			</nav>
 			<main className="main">{children}</main>
 			{footer ? <Footer /> : null}
-
 		</>
 	);
 }

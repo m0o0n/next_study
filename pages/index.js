@@ -6,7 +6,6 @@ export default function Home() {
 	return (
 		<MainLayout footer title={'Main Page'}>
 			<h1>{t('greeting')}</h1>
-
 		</MainLayout>
 	);
 }

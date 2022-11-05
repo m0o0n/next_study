@@ -127,14 +127,98 @@
           "name": "John Deere 481",
           "cost": "22.900$",
           "year": "2012",
-          "categoryID": 5
+          "categoryID": 0
         },
         {
           "id": 4,
           "name": "John Deere 9181",
           "cost": "38.400$",
           "year": "2011",
-          "categoryID": 5
+          "categoryID": 0
+        },
+        {
+          "id": 5,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 1
+        },
+        {
+          "id": 6,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 1
+        },
+        {
+          "id": 7,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 2
+        },
+        {
+          "id": 8,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 2
+        },
+        {
+          "id": 9,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 3
+        },
+        {
+          "id": 10,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 3
+        },
+        {
+          "id": 11,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 4
+        },
+        {
+          "id": 12,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 4
+        },
+        {
+          "id": 13,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 6
+        },
+        {
+          "id": 14,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 6
+        },
+        {
+          "id": 15,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 7
+        },
+        {
+          "id": 16,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 7
         }
       ]
     },
@@ -143,7 +227,7 @@
         {
           "id": 0,
           "name": "Tractors",
-          "categories": [{ "id": 0, "name": "All tractors" }]
+          "categories": [{ "id": 7, "name": "All tractors" }]
         },
         {
           "id": 1,
@@ -186,14 +270,98 @@
           "name": "John Deere 481",
           "cost": "22.900$",
           "year": "2012",
-          "categoryID": 5
+          "categoryID": 0
         },
         {
           "id": 4,
           "name": "John Deere 9181",
           "cost": "38.400$",
           "year": "2011",
-          "categoryID": 5
+          "categoryID": 0
+        },
+        {
+          "id": 5,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 1
+        },
+        {
+          "id": 6,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 1
+        },
+        {
+          "id": 7,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 2
+        },
+        {
+          "id": 8,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 2
+        },
+        {
+          "id": 9,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 3
+        },
+        {
+          "id": 10,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 3
+        },
+        {
+          "id": 11,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 4
+        },
+        {
+          "id": 12,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 4
+        },
+        {
+          "id": 13,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 6
+        },
+        {
+          "id": 14,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 6
+        },
+        {
+          "id": 15,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 7
+        },
+        {
+          "id": 16,
+          "name": "John Deere 381",
+          "cost": "31.900$",
+          "year": "2004",
+          "categoryID": 7
         }
       ]
     }
