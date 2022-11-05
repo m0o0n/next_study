@@ -1,7 +1,7 @@
 import { MainLayout } from '../../components/MainLayout';
 import useTranslation from 'next-translate/useTranslation';
 
-export default function City({ query, locale, catalog }) {
+export default function Products({ query, locale, catalog }) {
 	// query.slug[0] -> id категории
    // query.slug[1] -> id подкатегории на которую был клик
    const { t } = useTranslation('common');
