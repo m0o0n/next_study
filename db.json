@@ -81,18 +81,22 @@
   "language": {
     "ru": {
       "catalog": [
-        { "id": 0, "name": "Тракторы", "categories": ["Все тракторы"] },
+        {
+          "id": 0,
+          "name": "Тракторы",
+          "categories": [{ "id": 7, "name": "Все тракторы" }]
+        },
         {
           "id": 1,
           "name": "Сбор урожая",
           "categories": [
-            "Пресс-подборщики",
-            "Обмотчики тюков",
-            "Комбайны",
-            "Самоходные кормоуборочные комбайны",
-            "Свеклоуборочная техника",
-            "Косилки",
-            "Картофелеуборочные комбайны"
+            { "id": 0, "name": "Пресс-подборщики" },
+            { "id": 1, "name": "Обмотчики тюков" },
+            { "id": 2, "name": "Комбайны" },
+            { "id": 3, "name": "Самоходные кормоуборочные комбайны" },
+            { "id": 4, "name": "Свеклоуборочная техника" },
+            { "id": 5, "name": "Косилки" },
+            { "id": 6, "name": "Картофелеуборочные комбайны" }
           ]
         }
       ],
@@ -101,48 +105,57 @@
           "id": 0,
           "name": "John Deere 381",
           "cost": "31.900$",
-          "year": "2004"
+          "year": "2004",
+          "categoryID": 5
         },
         {
           "id": 1,
           "name": "John Deere 382",
           "cost": "14.500$",
-          "year": "2014"
+          "year": "2014",
+          "categoryID": 5
         },
         {
           "id": 2,
           "name": "John Deere 383",
           "cost": "28.700$",
-          "year": "2020"
+          "year": "2020",
+          "categoryID": 5
         },
         {
           "id": 3,
           "name": "John Deere 481",
           "cost": "22.900$",
-          "year": "2012"
+          "year": "2012",
+          "categoryID": 5
         },
         {
           "id": 4,
           "name": "John Deere 9181",
           "cost": "38.400$",
-          "year": "2011"
+          "year": "2011",
+          "categoryID": 5
         }
       ]
     },
     "en": {
       "catalog": [
-        { "id": 0, "name": "Tractors", "categories": ["All tractors"] },
+        {
+          "id": 0,
+          "name": "Tractors",
+          "categories": [{ "id": 0, "name": "All tractors" }]
+        },
         {
           "id": 1,
           "name": "Harvesting",
           "categories": [
-            "Balers",
-            "Bale wrappers",
-            "Combine harvesters",
-            "Self propelled forage harvesters",
-            "Beet harvesting equipments",
-            "Mowers",
-            "Potato harvesters"
+            { "id": 0, "name": "Balers" },
+            { "id": 1, "name": "Bale wrappers" },
+            { "id": 2, "name": "Combine harvesters" },
+            { "id": 3, "name": "Self propelled forage harvesters" },
+            { "id": 4, "name": "Beet harvesting equipments" },
+            { "id": 5, "name": "Mowers" },
+            { "id": 6, "name": "Potato harvesters" }
           ]
         }
       ],
@@ -151,31 +164,36 @@
           "id": 0,
           "name": "John Deere 381",
           "cost": "31.900$",
-          "year": "2004"
+          "year": "2004",
+          "categoryID": 5
         },
         {
           "id": 1,
           "name": "John Deere 382",
           "cost": "14.500$",
-          "year": "2014"
+          "year": "2014",
+          "categoryID": 5
         },
         {
           "id": 2,
           "name": "John Deere 383",
           "cost": "28.700$",
-          "year": "2020"
+          "year": "2020",
+          "categoryID": 5
         },
         {
           "id": 3,
           "name": "John Deere 481",
           "cost": "22.900$",
-          "year": "2012"
+          "year": "2012",
+          "categoryID": 5
         },
         {
           "id": 4,
           "name": "John Deere 9181",
           "cost": "38.400$",
-          "year": "2011"
+          "year": "2011",
+          "categoryID": 5
         }
       ]
     }

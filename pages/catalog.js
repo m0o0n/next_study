@@ -7,7 +7,7 @@ export default function Catalog({ catalog, locale }) {
 	const catalogPrint = catalog[locale].catalog;
 	const { t } = useTranslation('common');
 	return (
-		<MainLayout footer>
+		<MainLayout footer title={`Catalog`}>
 			<h1>{t('catalog')}</h1>
 			<div className={styles.catalog}>
 				{catalogPrint.map(el => {
@@ -15,14 +15,14 @@ export default function Catalog({ catalog, locale }) {
 						<div key={el.id} className={styles.catalog_col}>
 							<h5>{el.name}</h5>
 							<div className={styles.catalog_col__in}>
-								{el.categories.map((categories, index) => {
+								{el.categories.map((categories) => {
 									return (
-										<span key={categories}>
+										<span key={categories.id}>
 											<Link
 												href={`/product/[...slug]`}
-												as={`/product/${el.id}/${index}`}
+												as={`/product/${el.id}/${categories.id}`}
 											>
-												{categories}
+												{categories.name}
 											</Link>
 										</span>
 									);

@@ -1,5 +1,6 @@
 {
   "greeting": "Hello",
   "about": "about us",
-  "catalog": "Catalog"
+  "catalog": "Catalog",
+  "empty_products": "There are no products in this category yet"
 }
